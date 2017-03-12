@@ -49,8 +49,8 @@ body {
 /* Content Sections */
 
 .content {
-  padding-right: 10vw;
-  padding-left: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 #contact {
@@ -61,19 +61,42 @@ body {
   padding-top: 10vh;
 }
 
+#bio h1 {
+  font-size: 6vw;
+}
+
+#network h1 {
+  font-size: 6vw;
+}
+
+
+
+.main h1 {
+  font-size: 6vmax;
+}
+
+.main {
+    margin-top: 35vh;
+}
+
+/* Image grid */
+
+.img-responsive {
+  padding: 60px;
+  opacity: 0.5;
+}
+
+
+
 
 /* Media Queries */
 
  
 @media (min-width:300px) {
   .main h1 {
-    font-size: 35px;
     letter-spacing: 4px;
   }
-  .main {
-    margin-top: 15vh;
-  }
-
+  
   #image {
     margin-top: 2vh;
   }
@@ -86,12 +109,14 @@ body {
         display: table;
         table-layout: fixed;
     }
-  .main {
-  margin-top: 18vh;
-  }
+
   #nav-view li .scroll {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  #bio p {
+    font-size: 20px;
   }
   
   li {
@@ -99,12 +124,23 @@ body {
     padding-left: 25px;
     padding-right: 25px;
   }
+  /*Image */
+
+  #logos_1 #logos_2 #logos_3 {
+    height: 320;
+  }
+  #dalio {
+    padding-top: 130px;
+  }
+
+  #tata {
+    padding-top: 90px;
+  }
 }
 
 
 @media (min-width:992px) { 
   .main h1 {
-  font-size: 70px;
   letter-spacing: 7px;
   }
   .main h4 {
