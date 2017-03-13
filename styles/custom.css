@@ -1,7 +1,14 @@
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   color: #000000;
+}
+.main h1 {
+  font-size: 6vmax;
+}
+
+.main {
+    margin-top: 35vh;
 }
 
 
@@ -61,22 +68,8 @@ body {
   padding-top: 10vh;
 }
 
-#bio h1 {
-  font-size: 6vw;
-}
-
-#network h1 {
-  font-size: 6vw;
-}
-
-
-
-.main h1 {
-  font-size: 6vmax;
-}
-
-.main {
-    margin-top: 35vh;
+#bio h1, #network h1, #projects h1, #contact h1 {
+  font-size: 4vw;
 }
 
 /* Image grid */
@@ -90,8 +83,9 @@ body {
 
 
 /* Media Queries */
-
- 
+//
+//
+//
 @media (min-width:300px) {
   .main h1 {
     letter-spacing: 4px;
@@ -117,7 +111,7 @@ body {
   }
 
   #bio p {
-    font-size: 20px;
+    font-size: 16px;
   }
   
   li {
@@ -125,11 +119,9 @@ body {
     padding-left: 25px;
     padding-right: 25px;
   }
-  /*Image */
 
-  #logos_1 #logos_2 #logos_3 {
-    height: 320;
-  }
+
+  /*Network section */
   #dalio {
     padding-top: 130px;
   }
@@ -137,6 +129,15 @@ body {
   #tata {
     padding-top: 90px;
   }
+
+  #cbs {
+    padding-top: 110px;
+  }
+
+  #aaas, #time-warner {
+    padding-top: 120px;
+  }
+
 }
 
 
