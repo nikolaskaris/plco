@@ -120,7 +120,7 @@ body {
 /* Image grid */
 
 .img-responsive {
-  padding: 60px;
+  //padding: 60px;
   opacity: 0.5;
 }
 
