@@ -1,10 +1,14 @@
 
 body {
-  font-family: 'Varela Round', sans-serif;
-  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
 }
 .main h1 {
   font-size: 6vmax;
+  color: white;
+}
+.main h4 {
+  color: white;
 }
 
 .main {
@@ -13,6 +17,11 @@ body {
 
 
 /* Navbar */
+
+.navbar-default {
+  background-color: black;
+  border: none;
+}
 .navbar-toggle .icon-bar:nth-of-type(2) {
     top: 1px;
 }
@@ -40,13 +49,13 @@ body {
     transform: rotate(-45deg);
 }
 
-.navbar-default {
-  background-color: white;
-  border: none;
+.navbar-default .navbar-nav li a {
+  color: white;
 }
 
 
-/* Containers */
+
+/* landing */
 
 .landing {
   height: 100vh;
@@ -55,10 +64,7 @@ body {
 
 /* Content Sections */
 
-.content {
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
+
 
 #contact {
   padding-bottom: 30vh;
@@ -68,9 +74,44 @@ body {
   padding-top: 10vh;
 }
 
-#bio h1, #network h1, #projects h1, #contact h1 {
-  font-size: 4vw;
+#bio {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  width: 100%;
+  color: white;
 }
+
+#network {
+  background-color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: black;
+}
+
+#projects {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  width: 100%;
+  color: white;
+}
+
+#contact {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: white;
+}
+
+#contact p {
+  padding: 0 5vw 0 5vw;
+}
+
 
 /* Image grid */
 
@@ -79,10 +120,11 @@ body {
   opacity: 0.5;
 }
 
-/* Thumbnail gallery */
-
 .thumbnail img {
   height: 150px;
+}
+.thumbnail {
+  border: none;
 }
 
 
@@ -116,7 +158,7 @@ body {
     padding-right: 15px;
   }
 
-  #bio p {
+  #bio p, #projects p {
     font-size: 16px;
   }
   
@@ -125,27 +167,6 @@ body {
     padding-left: 25px;
     padding-right: 25px;
   }
-
-
-  /*Network section */
-  #dalio {
-    padding-top: 130px;
-  }
-
-  #tata {
-    padding-top: 90px;
-  }
-
-  #cbs {
-    padding-top: 110px;
-  }
-
-  #aaas, #time-warner {
-    padding-top: 120px;
-  }
-
-}
-
 
 @media (min-width:992px) { 
   .main h1 {
