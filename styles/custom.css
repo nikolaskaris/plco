@@ -79,6 +79,12 @@ body {
   opacity: 0.5;
 }
 
+/* Thumbnail gallery */
+
+.thumbnail img {
+  height: 150px;
+}
+
 
 
 
