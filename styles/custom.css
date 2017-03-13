@@ -105,7 +105,11 @@ body {
 #contact {
   padding-left: 5vw;
   padding-right: 5vw;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
   color: white;
+  background-color: #ff0000;
 }
 
 #contact p {
@@ -156,6 +160,10 @@ body {
   #nav-view li .scroll {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  #bio h1, #projects h1, #network h1, #contact h1 {
+    font-size: 6vw;
   }
 
   #bio p, #projects p {
