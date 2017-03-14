@@ -72,12 +72,6 @@ body p {
 
 /* Content Sections */
 
-
-
-#contact {
-  padding-bottom: 30vh;
-}
-
 #bio, #network, #projects {
   padding-top: 10vh;
 }
@@ -110,9 +104,14 @@ body p {
   color: white;
 }
 
+#projects a {
+  color: #ff0000;
+}
+
 #contact {
   padding-left: 10vw;
   padding-right: 10vw;
+  padding-bottom: 30vh;
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
