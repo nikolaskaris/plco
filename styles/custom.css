@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: black;
+  background-color: white;
 }
 
 body p {
@@ -9,10 +9,10 @@ body p {
 }
 .main h1 {
   font-size: 6vmax;
-  color: white;
+  color: black;
 }
 .main h4 {
-  color: white;
+  color: black;
 }
 
 .main {
@@ -23,7 +23,7 @@ body p {
 /* Navbar */
 
 .navbar-default {
-  background-color: black;
+  background-color: white;
   border: none;
 }
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -54,7 +54,7 @@ body p {
 }
 
 .navbar-default .navbar-nav li a {
-  color: white;
+  color: black;
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -82,7 +82,8 @@ body p {
   padding-left: 10vw;
   padding-right: 10vw;
   width: 100%;
-  color: white;
+  color: black;
+  background-color: white;
 }
 
 #network {
@@ -101,7 +102,7 @@ body p {
   padding-left: 10vw;
   padding-right: 10vw;
   width: 100%;
-  color: white;
+  color: black;
 }
 
 #projects a {
