@@ -3,6 +3,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: black;
 }
+
+body p {
+  font-family: 'Varela Round', sans-serif;
+}
 .main h1 {
   font-size: 6vmax;
   color: white;
@@ -51,6 +55,10 @@ body {
 
 .navbar-default .navbar-nav li a {
   color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: grey;
 }
 
 
@@ -103,8 +111,8 @@ body {
 }
 
 #contact {
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
