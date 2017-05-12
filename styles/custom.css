@@ -8,7 +8,6 @@ body p {
 }
 
 
-
 .main h1 {
   font-size: 6vmax;
   color: white;
@@ -21,13 +20,19 @@ body p {
     margin-top: 50vh;
 }
 
-
 /* Navbar */
 
 .navbar-default {
   background-color: transparent;
   border: none;
+  font-size: 16px;
 }
+
+.navbar-default li {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .navbar-toggle .icon-bar:nth-of-type(2) {
     top: 1px;
 }
@@ -53,6 +58,11 @@ body p {
 .navbar-toggle.active .icon-bar:nth-of-type(3) {
     top: -6px;
     transform: rotate(-45deg);
+}
+
+.navbar-default .navbar-nav {
+  display: inline-block;
+  float: none;
 }
 
 .navbar-default .navbar-nav li a {
@@ -90,6 +100,7 @@ body p {
   -o-background-size: cover;
   background-size: cover;
   z-index:-100;
+
 }
 
 
@@ -162,7 +173,6 @@ body p {
   border: none;
 }
 
-
 /* Media Queries */
 
 // Mobile 
@@ -181,8 +191,8 @@ body p {
 
 // iPad
 @media (min-width:768px) {
-  .navbar-nav{
-        float:none;
+  .navbar-nav {
+        float: none;
         margin: 0 auto;
         display: table;
         table-layout: fixed;
@@ -206,7 +216,7 @@ body p {
     padding-left: 25px;
     padding-right: 25px;
   }
-
+}
 
 // Desktop
 @media (min-width:992px) { 
@@ -219,7 +229,9 @@ body p {
   #image {
   margin-top: 3vh;
   }
-  li {
+
+
+   li {
     font-size: 16px;
     padding-left: 50px;
     padding-right: 50px;
