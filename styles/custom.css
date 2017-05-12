@@ -29,8 +29,8 @@ body p {
 }
 
 .navbar-default li {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -201,11 +201,6 @@ body p {
   #nav-view li .scroll {
     padding-left: 15px;
     padding-right: 15px;
-  }
-
-  .navbar-default li {
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
   #bio h1, #projects h1, #network h1, #contact h1 {
