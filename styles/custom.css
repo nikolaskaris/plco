@@ -203,6 +203,11 @@ body p {
     padding-right: 15px;
   }
 
+  .navbar-default li {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   #bio h1, #projects h1, #network h1, #contact h1 {
     font-size: 6vw;
   }
