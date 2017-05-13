@@ -11,12 +11,12 @@ body p {
   font-size: 6vmax;
   color: white;
 }
-.main h4 {
+.main    {
   color: white;
 }
 
 .main {
-    margin-top: 50vh;
+    margin-top: 40vh;
 }
 
 /* Navbar */
@@ -28,8 +28,8 @@ body p {
 }
 
 .navbar-default li {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -99,6 +99,7 @@ body p {
   -o-background-size: cover;
   background-size: cover;
   z-index:-100;
+  opacity: 0.6;
 }
 
 
@@ -188,15 +189,7 @@ body p {
   .main h1 {
     letter-spacing: 4px;
   }
-  
-  #image {
-    margin-top: 2vh;
-  }
-
 }
-
-}
-
 
 // iPad
 @media (min-width:768px) {
@@ -240,16 +233,10 @@ body p {
   margin-top: 3vh;
   }
 
-
    li {
     font-size: 16px;
     padding-left: 50px;
     padding-right: 50px;
   }
   
-}
-
-@media (min-width:1200px) {
-  
- 
 }
