@@ -72,7 +72,7 @@ body p {
   color: grey;
 }
 
-//Add the below transitions to allow a smooth color change similar to lyft
+/* Add the below transitions to allow a smooth color change similar to lyft */
 .navbar {
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
@@ -82,8 +82,8 @@ body p {
 }
 
 .navbar.scrolled {
-    background: rgb(255, 255, 255); //IE
-    background: rgba(255, 255, 255, 0.3); //NON-IE
+    background: rgb(255, 255, 255); /*IE*/
+    background: rgba(255, 255, 255, 0.3); /*NON-IE*/
 }
 
 
@@ -184,14 +184,27 @@ body p {
 
 /* Media Queries */
 
-// Mobile 
+/* Mobile */
 @media (min-width:300px) {
   .main h1 {
     letter-spacing: 4px;
   }
+
+  .landing {
+    height: 100vh;
+    width: 100vw;
+    background: url('images/paul_mobile.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index:-100;
+    opacity: 0.6;
+  }
+
 }
 
-// iPad
+/* iPad */
 @media (min-width:768px) {
   .navbar-nav {
         float: none;
@@ -203,6 +216,18 @@ body p {
   #nav-view li .scroll {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .landing {
+    height: 100vh;
+    width: 100vw;
+    background: url('images/paul.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index:-100;
+    opacity: 0.6;
   }
 
   #bio h1, #projects h1, #network h1, #contact h1 {
@@ -221,7 +246,7 @@ body p {
 
 }
 
-// Desktop
+/* Desktop */ 
 @media (min-width:992px) { 
   .main h1 {
   letter-spacing: 7px;
