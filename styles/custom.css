@@ -82,8 +82,8 @@ body p {
 }
 
 .navbar.scrolled {
-    background: rgb(255, 255, 255); /*IE*/
-    background: rgba(255, 255, 255, 0.3); /*NON-IE*/
+    background: rgb(255, 255, 255); //IE//
+    background: rgba(255, 255, 255, 0.3); //Non-IE//
 }
 
 
