@@ -194,6 +194,7 @@ body p {
     height: 100vh;
     width: 100vw;
     background: url('images/paul_mobile.jpg') no-repeat center center fixed;
+    background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
